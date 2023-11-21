@@ -1,4 +1,4 @@
-# Stock Price Analysis
+# finding grid trading parameters by simulating pink noise
 
 Looking at [articles online](https://easylanguagemastery.com/indicators/predictive-indicators/), stocks generally follow a fractal pattern where the variation scales proportionally with time period, so the price variation within 100 days is roughly 10x larger than the variation within 10 days. In Python, I took the fast Fourier transform of QQQ prices to get the relationship between amplitude and frequency, which seems to match 1/x alright.
 
